@@ -1,0 +1,43 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+.navigation-list,
+.contact-list,
+.features-list,
+.team-list,
+.portfolio-list {
+  list-style-type: none;
+}
+
+.logo,
+.footer-logo,
+.navigation-link,
+.contact-link {
+  text-decoration: none;
+}
+
+.logo,
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-accent {
+  color: #4d5ae5;
+}
+
+.section-title {
+  color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}

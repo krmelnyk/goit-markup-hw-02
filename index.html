@@ -1,127 +1,191 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WebStudio</title>
-</head>
-<body>
-  <header id="header">
-    <a href="./index.html">WebStudio</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&amp;family=Roboto:wght@400;500;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="page-header" id="header">
+      <nav class="page-navigation">
+        <a class="logo" href="./index.html"
+          ><span class="logo-accent">Web</span>Studio</a
+        >
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="./index.html">Studio</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
 
-    <nav>
-      <ul>
-         <li><a href="#features">Features</a></li>
-         <li><a href="#team">Team</a></li>
-         <li><a href="#portfolio">Portfolio</a></li>
-      </ul>
-    </nav>
+      <address class="contact-information" id="contacts">
+        <ul class="contact-list">
+          <li class="contact-item">
+            <a class="contact-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contact-item">
+            <a class="contact-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
+    </header>
 
-    <address>
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-          <a href="tel:+110001111111">+11 (000) 111-11-11</a>
-        </li>
-      </ul>
-    </address>
-  </header>
+    <main>
+      <section class="hero-section" id="hero">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button class="order-button" type="button">Order Service</button>
+      </section>
 
-  <main>
-    <section id="hero">
-      <h1>Effective Solutions for Your Business</h1>
-      <button type="button">Order Service</button>
-    </section>
+      <section class="features-section" id="features">
+        <h2>Our Features</h2>
+        <ul class="features-list">
+          <li class="feature-item">
+            <h3 class="feature-title">Strategy</h3>
+            <p class="feature-description">
+              Our goal is to identify the business problem to walk away with the
+              perfect and creative solution.
+            </p>
+          </li>
+          <li class="feature-item">
+            <h3 class="feature-title">Punctuality</h3>
+            <p class="feature-description">
+              Bring the key message to the brand's audience for the best price
+              within the shortest possible time.
+            </p>
+          </li>
+          <li class="feature-item">
+            <h3 class="feature-title">Diligence</h3>
+            <p class="feature-description">
+              Research and confirm brands with the strongest digital growth
+              opportunities and minimize risk.
+            </p>
+          </li>
+          <li class="feature-item">
+            <h3 class="feature-title">Technologies</h3>
+            <p class="feature-description">
+              Design practice focused on digital experiences. We bring forth a
+              deep passion for problem-solving.
+            </p>
+          </li>
+        </ul>
+      </section>
 
-    <section id="features">
-      <h2>Our Features</h2>
+      <section class="team-section" id="team">
+        <h2 class="section-title">Our Team</h2>
+        <ul class="team-list">
+          <li class="team-card">
+            <img src="./images/team-1.jpg" alt="Mark Guerrero" width="264" />
+            <h3 class="team-member-name">Mark Guerrero</h3>
+            <p class="team-member-position">Product Designer</p>
+          </li>
+          <li class="team-card">
+            <img src="./images/team-2.jpg" alt="Tom Ford" width="264" />
+            <h3 class="team-member-name">Tom Ford</h3>
+            <p class="team-member-position">Frontend Developer</p>
+          </li>
+          <li class="team-card">
+            <img src="./images/team-3.jpg" alt="Camila Garcia" width="264" />
+            <h3 class="team-member-name">Camila Garcia</h3>
+            <p class="team-member-position">Marketing</p>
+          </li>
+          <li class="team-card">
+            <img src="./images/team-4.jpg" alt="Daniel Wilson" width="264" />
+            <h3 class="team-member-name">Daniel Wilson</h3>
+            <p class="team-member-position">UI Designer</p>
+          </li>
+        </ul>
+      </section>
 
-      <ul>
-        <li>
-          <h3>Strategy</h3>
-          <p>
-            Our goal is to identify the business problem to walk away with the perfect and creative solution.
-          </p>
-        </li>
+      <section class="portfolio-section" id="portfolio">
+        <h2 class="section-title">Our Portfolio</h2>
+        <ul class="portfolio-list">
+          <li class="portfolio-card">
+            <img
+              src="./images/portfolio-1.jpg"
+              alt="Banking application interface"
+              width="360"
+            />
+            <h3 class="portfolio-title">Banking App</h3>
+            <p class="portfolio-category">App</p>
+          </li>
+          <li class="portfolio-card">
+            <img
+              src="./images/portfolio-2.jpg"
+              alt="Cashless payment using a smartphone"
+              width="360"
+            />
+            <h3 class="portfolio-title">Cashless Payment</h3>
+            <p class="portfolio-category">Marketing</p>
+          </li>
+          <li class="portfolio-card">
+            <img
+              src="./images/portfolio-3.jpg"
+              alt="Meditation application interface"
+              width="360"
+            />
+            <h3 class="portfolio-title">Meditation App</h3>
+            <p class="portfolio-category">App</p>
+          </li>
+          <li class="portfolio-card">
+            <img
+              src="./images/portfolio-4.jpg"
+              alt="Taxi service inside a car"
+              width="360"
+            />
+            <h3 class="portfolio-title">Taxi Service</h3>
+            <p class="portfolio-category">Marketing</p>
+          </li>
+          <li class="portfolio-card">
+            <img
+              src="./images/portfolio-5.jpg"
+              alt="Screen illustrations on a smartphone"
+              width="360"
+            />
+            <h3 class="portfolio-title">Screen Illustrations</h3>
+            <p class="portfolio-category">Design</p>
+          </li>
+          <li class="portfolio-card">
+            <img
+              src="./images/portfolio-6.jpg"
+              alt="Online course website"
+              width="360"
+            />
+            <h3 class="portfolio-title">Online Courses</h3>
+            <p class="portfolio-category">Marketing</p>
+          </li>
+        </ul>
+      </section>
+    </main>
 
-        <li>
-          <h3>Punctuality</h3>
-          <p>
-            Bring the key message to the brand's audience for the best price within the shortest possible time.
-          </p>
-        </li>
-
-        <li>
-          <h3>Diligence</h3>
-          <p>
-            Research and confirm brands with the strongest digital growth opportunities and minimize risk.
-          </p>
-        </li>
-
-        <li>
-          <h3>Technologies</h3>
-          <p>
-            Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
-          </p>
-        </li>
-      </ul>
-    </section>
-
-    <section id="team">
-      <h2>Our Team</h2>
-
-      <ul>
-        <li>
-          <img
-            src="./images/team-1.jpg"
-            alt="Mark Guerrero"
-            width="264"
-          />
-          <h3>Mark Guerrero</h3>
-          <p>Product Designer</p>
-        </li>
-
-        <li>
-          <img
-            src="./images/team-2.jpg"
-            alt="Tom Ford"
-            width="264"
-          />
-          <h3>Tom Ford</h3>
-          <p>Frontend Developer</p>
-        </li>
-
-        <li>
-          <img
-            src="./images/team-3.jpg"
-            alt="Camila Garcia"
-            width="264"
-          />
-          <h3>Camila Garcia</h3>
-          <p>Marketing</p>
-        </li>
-
-        <li>
-          <img
-            src="./images/team-4.jpg"
-            alt="Daniel Wilson"
-            width="264"
-          />
-          <h3>Daniel Wilson</h3>
-          <p>UI Designer</p>
-        </li>
-      </ul>
-    </section>
-  </main>
-
-  <footer id="footer">
-    <a href="./index.html">WebStudio</a>
-
-    <p>
-      Increase the flow of customers and sales for your business with digital marketing & growth solutions.
-    </p>
-  </footer>
-</body>
+    <footer class="page-footer" id="footer">
+      <a class="footer-logo" href="./index.html"
+        ><span class="logo-accent">Web</span>Studio</a
+      >
+      <p class="footer-description">
+        Increase the flow of customers and sales for your business with digital
+        marketing &amp; growth solutions.
+      </p>
+    </footer>
+  </body>
 </html>
