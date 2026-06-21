@@ -1,25 +1,25 @@
 # WebStudio
 
-Навчальний односторінковий сайт, створений у межах домашнього завдання GoIT з
-HTML і CSS.
+An educational single-page website created as part of the GoIT HTML and CSS
+homework assignment.
 
-## Реалізовані секції
+## Implemented Sections
 
-- Header із навігацією та контактами
+- Header with navigation and contact information
 - Hero
 - Our Features
 - Our Team
 - Our Portfolio
 - Footer
 
-## Технології
+## Technologies
 
 - HTML5
 - CSS3
 - Modern Normalize
-- Google Fonts: Roboto та Raleway
+- Google Fonts: Roboto and Raleway
 
-## Структура проєкту
+## Project Structure
 
 ```text
 .
@@ -40,16 +40,17 @@ HTML і CSS.
 └── README.md
 ```
 
-У `index.html` підключений лише файл `css/main.css`. Він містить імпорти
-стилів окремих блоків сторінки.
+Only `css/main.css` is linked in `index.html`. It imports the separate
+stylesheets for each page section.
 
-## Запуск
+## Getting Started
 
-Відкрийте файл `index.html` у браузері. Встановлення залежностей і збірка
-проєкту не потрібні.
+Open `index.html` in a browser. No dependency installation or build step is
+required.
 
-## Перевірка
+## Validation
 
-- HTML перевірено через [W3C Nu Validator](https://validator.w3.org/nu/).
-- HTML і CSS відформатовано за допомогою Prettier.
-- Усі зображення зберігаються локально у форматі JPG.
+- The HTML has been validated with the
+  [W3C Nu Validator](https://validator.w3.org/nu/).
+- The HTML and CSS files have been formatted with Prettier.
+- All images are stored locally in JPG format.
