@@ -1,22 +1,55 @@
-# WebStudio Markup Project
+# WebStudio
 
-Static HTML page for the GoIT markup homework.
+Навчальний односторінковий сайт, створений у межах домашнього завдання GoIT з
+HTML і CSS.
 
-## Project Structure
+## Реалізовані секції
 
-- `index.html` - main page markup
-- `images/` - project images
+- Header із навігацією та контактами
+- Hero
+- Our Features
+- Our Team
+- Our Portfolio
+- Footer
 
-## How to Run
+## Технології
 
-Open `index.html` in a browser.
+- HTML5
+- CSS3
+- Modern Normalize
+- Google Fonts: Roboto та Raleway
 
-No build step or local server is required.
+## Структура проєкту
 
-## Checks
+```text
+.
+├── css/
+│   ├── common.css
+│   ├── features.css
+│   ├── footer.css
+│   ├── header.css
+│   ├── hero.css
+│   ├── main.css
+│   ├── portfolio.css
+│   └── team.css
+├── images/
+│   ├── portfolio-1.jpg
+│   ├── ...
+│   └── team-4.jpg
+├── index.html
+└── README.md
+```
 
-Recommended checks before submitting:
+У `index.html` підключений лише файл `css/main.css`. Він містить імпорти
+стилів окремих блоків сторінки.
 
-- Validate `index.html` with the W3C Markup Validation Service: <https://validator.w3.org/nu/>
-- Format the source with Prettier
-- Make sure all image paths and anchor links work correctly
+## Запуск
+
+Відкрийте файл `index.html` у браузері. Встановлення залежностей і збірка
+проєкту не потрібні.
+
+## Перевірка
+
+- HTML перевірено через [W3C Nu Validator](https://validator.w3.org/nu/).
+- HTML і CSS відформатовано за допомогою Prettier.
+- Усі зображення зберігаються локально у форматі JPG.
