@@ -4,11 +4,7 @@ body {
   background-color: #ffffff;
 }
 
-.navigation-list,
-.contact-list,
-.features-list,
-.team-list,
-.portfolio-list {
+ul {
   list-style-type: none;
 }
 
